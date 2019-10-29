@@ -4,29 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_two">
+    tools:context=".SecondActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/abcs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="ABCs" />
+        android:text="Button" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/cartoonClips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"
-        android:text="Cartoon Clips" />
+        android:text="Button" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/sightWords"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true"
-        android:text="Read Words!" />
-
+        android:text="Button" />
 </RelativeLayout>

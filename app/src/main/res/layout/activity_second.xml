@@ -16,11 +16,13 @@
         android:id="@+id/cartoonClips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="130px"
         android:text="Button" />
 
     <Button
         android:id="@+id/sightWords"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="190px"
         android:text="Button" />
 </RelativeLayout>

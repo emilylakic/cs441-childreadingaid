@@ -16,6 +16,8 @@
         android:id="@+id/letsBegin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Let's Begin!" />
+        android:layout_marginLeft="500dp"
+        android:layout_marginRight="500dp"
+        android:text="Next >" />
 
 </RelativeLayout>

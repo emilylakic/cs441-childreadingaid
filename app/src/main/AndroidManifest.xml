@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FifthActivity"></activity>
-        <activity android:name=".FourthActivity" />
-        <activity android:name=".ThirdActivity" />
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".FifthActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".FourthActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ThirdActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SecondActivity"
+            android:screenOrientation="landscape"/>
         <activity android:name=".MainActivity"
             android:screenOrientation="landscape">
             <intent-filter>

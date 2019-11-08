@@ -9,25 +9,43 @@ import android.content.Intent;
 
 public class SecondActivity extends AppCompatActivity {
 
-    Button abcs;
-    Button cartoonClips;
-    Button sightWords;
+    Button backButton;
+    Button list1;
+    Button list2;
+    Button list3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        abcs = (Button) findViewById(R.id.abcs);
-        cartoonClips = (Button) findViewById(R.id.cartoonClips);
-        sightWords = (Button) findViewById(R.id.sightWords);
+        backButton = (Button) findViewById(R.id.backButton);
+        list1 = (Button) findViewById(R.id.list1);
+        list2 = (Button) findViewById(R.id.list2);
+        list3 = (Button) findViewById(R.id.list3);
 
-        abcs.setOnClickListener(new View.OnClickListener() {
+        backButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
                 // Intents are objects of the android.content.Intent type. Your code can send them
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
+
+                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+
+                // start the activity connect to the specified class
+                startActivity(intent);
+            }
+        });
+
+        list1.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v)
+            {
+
+                // Intents are objects of the android.content.Intent type. Your code can send them
+                // to the Android system defining the components you are targeting.
+                // Intent to start an activity called SecondActivity with the following code:
 
                 Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
 
@@ -36,7 +54,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-        cartoonClips.setOnClickListener(new View.OnClickListener() {
+        list2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v)
             {
@@ -52,7 +70,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-        sightWords.setOnClickListener(new View.OnClickListener() {
+        list3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v)
             {

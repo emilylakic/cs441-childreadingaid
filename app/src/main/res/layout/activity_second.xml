@@ -4,25 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#97de89"
     tools:context=".SecondActivity">
 
-    <Button
-        android:id="@+id/abcs"
+    <ImageView
+        android:id="@+id/snapWords"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        app:srcCompat="@drawable/mysnapwords" />
 
     <Button
-        android:id="@+id/cartoonClips"
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-20px"
+        android:background="@android:color/transparent"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/list1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="130px"
-        android:text="Button" />
+        android:background="#FFFFFF"
+        android:text="List 1" />
 
     <Button
-        android:id="@+id/sightWords"
+        android:id="@+id/list2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="190px"
-        android:text="Button" />
+        android:layout_marginTop="260px"
+        android:background="#FFFFFF"
+        android:text="List 2" />
+
+    <Button
+        android:id="@+id/list3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390px"
+        android:background="#FFFFFF"
+        android:text="List 3" />
 </RelativeLayout>

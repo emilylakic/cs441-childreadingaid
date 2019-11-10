@@ -10,5 +10,7 @@ public class SixthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sixth);
+
+        //This is the about activity
     }
 }

@@ -23,25 +23,53 @@
 
     <Button
         android:id="@+id/list1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="130px"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160px"
         android:background="#FFFFFF"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="250dp"
         android:text="List 1" />
 
     <Button
         android:id="@+id/list2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_marginTop="260px"
         android:background="#FFFFFF"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="250dp"
         android:text="List 2" />
 
     <Button
         android:id="@+id/list3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="390px"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="360px"
         android:background="#FFFFFF"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="250dp"
         android:text="List 3" />
+
+    <Button
+        android:id="@+id/list4"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460px"
+        android:background="#FFFFFF"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="250dp"
+        android:text="List 4" />
+
+    <Button
+        android:id="@+id/list5"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="560px"
+        android:background="#FFFFFF"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="250dp"
+        android:text="List 5" />
+
+
 </RelativeLayout>

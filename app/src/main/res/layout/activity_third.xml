@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdActivity">
 
-    <TextView
-        android:id="@+id/textView3"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Third Activity" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:srcCompat="@drawable/list1" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-20px"
+        android:background="@android:color/transparent"
+        android:text="Back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/the"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130px"
+            android:background="#FFFFFF"
+            android:layout_gravity="center"
+            android:text="the" />
+
+        <Button
+            android:id="@+id/to"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:text="to" />
+
+        <Button
+            android:id="@+id/and"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:background="#FFFFFF"
+            android:text="and" />
+
+        <Button
+            android:id="@+id/he"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:background="#FFFFFF"
+            android:text="he" />
+
+        <Button
+            android:id="@+id/you"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="31px"
+            android:background="#FFFFFF"
+            android:text="you" />
+
+    </LinearLayout>
+
+</RelativeLayout>

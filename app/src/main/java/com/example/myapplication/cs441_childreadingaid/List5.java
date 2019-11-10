@@ -52,7 +52,7 @@ public class List5 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List5.this, List3.class);
+                Intent intent = new Intent(List5.this, SecondActivity.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);

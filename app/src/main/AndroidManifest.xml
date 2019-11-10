@@ -9,16 +9,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".All"
+        <activity android:name=".Did"
             android:screenOrientation="landscape"></activity>
-        <activity android:name=".Up"
+        <activity android:name=".When"
             android:screenOrientation="landscape"/>
-        <activity android:name=".With"
+        <activity android:name=".Could"
             android:screenOrientation="landscape"/>
-        <activity android:name=".Him"
+        <activity android:name=".Can"
             android:screenOrientation="landscape"/>
-        <activity android:name=".At"
+        <activity android:name=".Get"
             android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Go"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Have"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Be"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".As"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Out"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".All"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Up"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".With"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Him"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".At"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".She"
             android:screenOrientation="landscape" />

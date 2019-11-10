@@ -10,11 +10,11 @@ import android.widget.Button;
 public class List3 extends AppCompatActivity {
 
     Button backButton;
-    Button was;
-    Button said;
-    Button his;
-    Button that;
-    Button she;
+    Button out;
+    Button as;
+    Button be;
+    Button have;
+    Button go;
     Button nextButton;
 
     @Override
@@ -23,11 +23,11 @@ public class List3 extends AppCompatActivity {
         setContentView(R.layout.activity_list3);
         backButton = (Button) findViewById(R.id.backButton);
         nextButton = (Button) findViewById(R.id.nextButton);
-        was = (Button) findViewById(R.id.was);
-        said = (Button) findViewById(R.id.said);
-        his = (Button) findViewById(R.id.his);
-        that = (Button) findViewById(R.id.that);
-        she = (Button) findViewById(R.id.she);
+        out = (Button) findViewById(R.id.out);
+        as = (Button) findViewById(R.id.as);
+        be = (Button) findViewById(R.id.be);
+        have = (Button) findViewById(R.id.have);
+        go = (Button) findViewById(R.id.go);
 
         backButton.setOnClickListener(new View.OnClickListener() {
 
@@ -59,7 +59,7 @@ public class List3 extends AppCompatActivity {
             }
         });
 
-        was.setOnClickListener(new View.OnClickListener() {
+        out.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
@@ -67,14 +67,14 @@ public class List3 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List3.this, Was.class);
+                Intent intent = new Intent(List3.this, Out.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
 
-        said.setOnClickListener(new View.OnClickListener() {
+        as.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
@@ -82,14 +82,14 @@ public class List3 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List3.this, Said.class);
+                Intent intent = new Intent(List3.this, As.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
 
-        his.setOnClickListener(new View.OnClickListener() {
+        be.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
@@ -97,14 +97,14 @@ public class List3 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List3.this, His.class);
+                Intent intent = new Intent(List3.this, Be.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
 
-        that.setOnClickListener(new View.OnClickListener() {
+        have.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
@@ -112,14 +112,14 @@ public class List3 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List3.this, That.class);
+                Intent intent = new Intent(List3.this, Have.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);
             }
         });
 
-        she.setOnClickListener(new View.OnClickListener() {
+        go.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
 
@@ -127,7 +127,7 @@ public class List3 extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(List3.this, She.class);
+                Intent intent = new Intent(List3.this, Go.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);

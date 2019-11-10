@@ -34,49 +34,49 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/was"
+            android:id="@+id/get"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="130px"
             android:background="#FFFFFF"
             android:layout_gravity="center"
-            android:text="was" />
+            android:text="Get" />
 
         <Button
-            android:id="@+id/said"
+            android:id="@+id/can"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
             android:layout_gravity="center"
             android:background="#FFFFFF"
-            android:text="said" />
+            android:text="Can" />
 
         <Button
-            android:id="@+id/his"
+            android:id="@+id/could"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25px"
             android:background="#FFFFFF"
-            android:text="his" />
+            android:text="Could" />
 
         <Button
-            android:id="@+id/that"
+            android:id="@+id/when"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30px"
             android:background="#FFFFFF"
-            android:text="that" />
+            android:text="When" />
 
         <Button
-            android:id="@+id/she"
+            android:id="@+id/did"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="31px"
             android:background="#FFFFFF"
-            android:text="she" />
+            android:text="Did" />
 
     </LinearLayout>
 

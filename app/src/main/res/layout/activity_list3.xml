@@ -34,49 +34,49 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/was"
+            android:id="@+id/out"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="130px"
             android:background="#FFFFFF"
             android:layout_gravity="center"
-            android:text="was" />
+            android:text="out" />
 
         <Button
-            android:id="@+id/said"
+            android:id="@+id/as"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
             android:layout_gravity="center"
             android:background="#FFFFFF"
-            android:text="said" />
+            android:text="as" />
 
         <Button
-            android:id="@+id/his"
+            android:id="@+id/be"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25px"
             android:background="#FFFFFF"
-            android:text="his" />
+            android:text="be" />
 
         <Button
-            android:id="@+id/that"
+            android:id="@+id/have"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30px"
             android:background="#FFFFFF"
-            android:text="that" />
+            android:text="have" />
 
         <Button
-            android:id="@+id/she"
+            android:id="@+id/go"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="31px"
             android:background="#FFFFFF"
-            android:text="she" />
+            android:text="go" />
 
     </LinearLayout>
 

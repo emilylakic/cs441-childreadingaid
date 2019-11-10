@@ -35,7 +35,7 @@ public class She extends Activity implements TextToSpeech.OnInitListener {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called ThirdActivity with the following code:
 
-                Intent intent = new Intent(She.this, List2.class);
+                Intent intent = new Intent(She.this, SecondActivity.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);

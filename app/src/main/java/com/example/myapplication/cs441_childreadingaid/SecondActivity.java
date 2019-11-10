@@ -15,12 +15,14 @@ public class SecondActivity extends AppCompatActivity {
     Button list3;
     Button list4;
     Button list5;
+    Button shuffle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         backButton = (Button) findViewById(R.id.backButton);
+        shuffle = (Button) findViewById(R.id.shuffle);
         list1 = (Button) findViewById(R.id.list1);
         list2 = (Button) findViewById(R.id.list2);
         list3 = (Button) findViewById(R.id.list3);
@@ -41,6 +43,22 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        shuffle.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+
+                // Intents are objects of the android.content.Intent type. Your code can send them
+                // to the Android system defining the components you are targeting.
+                // Intent to start an activity called ThirdActivity with the following code:
+
+                Intent intent = new Intent(SecondActivity.this, She.class);
+
+                // start the activity connect to the specified class
+                startActivity(intent);
+            }
+        });
+
 
         list1.setOnClickListener(new View.OnClickListener() {
 

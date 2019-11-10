@@ -71,5 +71,16 @@
         android:layout_marginLeft="250dp"
         android:text="List 5" />
 
+    <Button
+        android:id="@+id/shuffle"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="330px"
+        android:textColor="#FFFFFF"
+        android:background="#e7945a"
+        android:layout_marginRight="430dp"
+        android:layout_marginLeft="430dp"
+        android:text="Surprise Word!" />
+
 
 </RelativeLayout>

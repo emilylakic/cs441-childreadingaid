@@ -10,6 +10,7 @@ import android.widget.Button;
 public class ThirdActivity extends AppCompatActivity {
 
     Button backButton;
+    Button nextButton;
     Button the;
     Button to;
     Button and;
@@ -20,6 +21,7 @@ public class ThirdActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
+        nextButton = (Button) findViewById(R.id.nextButton);
         backButton = (Button) findViewById(R.id.backButton);
         the = (Button) findViewById(R.id.the);
         to = (Button) findViewById(R.id.to);
@@ -36,6 +38,21 @@ public class ThirdActivity extends AppCompatActivity {
                 // Intent to start an activity called ThirdActivity with the following code:
 
                 Intent intent = new Intent(ThirdActivity.this, SecondActivity.class);
+
+                // start the activity connect to the specified class
+                startActivity(intent);
+            }
+        });
+
+        nextButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+
+                // Intents are objects of the android.content.Intent type. Your code can send them
+                // to the Android system defining the components you are targeting.
+                // Intent to start an activity called ThirdActivity with the following code:
+
+                Intent intent = new Intent(ThirdActivity.this, List2.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);

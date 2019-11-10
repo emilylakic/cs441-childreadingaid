@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
+    tools:context=".List4">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/list1" />
+        app:srcCompat="@drawable/list4" />
 
     <Button
         android:id="@+id/backButton"
@@ -34,49 +34,49 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/the"
+            android:id="@+id/was"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="130px"
             android:background="#FFFFFF"
             android:layout_gravity="center"
-            android:text="the" />
+            android:text="was" />
 
         <Button
-            android:id="@+id/to"
+            android:id="@+id/said"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20px"
             android:layout_gravity="center"
             android:background="#FFFFFF"
-            android:text="to" />
+            android:text="said" />
 
         <Button
-            android:id="@+id/and"
+            android:id="@+id/his"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25px"
             android:background="#FFFFFF"
-            android:text="and" />
+            android:text="his" />
 
         <Button
-            android:id="@+id/he"
+            android:id="@+id/that"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30px"
             android:background="#FFFFFF"
-            android:text="he" />
+            android:text="that" />
 
         <Button
-            android:id="@+id/you"
+            android:id="@+id/she"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="31px"
             android:background="#FFFFFF"
-            android:text="you" />
+            android:text="she" />
 
     </LinearLayout>
 

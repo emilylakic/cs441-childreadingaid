@@ -9,12 +9,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NinthActivity"
+        <activity android:name=".All"
             android:screenOrientation="landscape"></activity>
-        <activity android:name=".EighthActivity"
+        <activity android:name=".Up"
             android:screenOrientation="landscape"/>
-        <activity android:name=".SeventhActivity"
+        <activity android:name=".With"
             android:screenOrientation="landscape"/>
+        <activity android:name=".Him"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".At"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".She"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".That"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".His"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Said"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Was"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".List5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".List4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".List3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".List2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NinthActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EighthActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SeventhActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".FifthActivity"
             android:screenOrientation="landscape" />

@@ -3,6 +3,7 @@ package com.example.myapplication.cs441_childreadingaid;
 import java.util.Locale;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 
 public class FourthActivity extends Activity implements TextToSpeech.OnInitListener {
 
+    Button backButton;
     private TextToSpeech tts;
     private ImageButton btnSpeak;
     private TextView textView;
@@ -22,6 +24,23 @@ public class FourthActivity extends Activity implements TextToSpeech.OnInitListe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth);
+
+        backButton = (Button) findViewById(R.id.backButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+
+                // Intents are objects of the android.content.Intent type. Your code can send them
+                // to the Android system defining the components you are targeting.
+                // Intent to start an activity called ThirdActivity with the following code:
+
+                Intent intent = new Intent(FourthActivity.this, ThirdActivity.class);
+
+                // start the activity connect to the specified class
+                startActivity(intent);
+            }
+        });
 
         tts = new TextToSpeech(this, this);
 
@@ -62,7 +81,6 @@ public class FourthActivity extends Activity implements TextToSpeech.OnInitListe
                 Log.e("TTS", "This Language is not supported");
             } else {
                 btnSpeak.setEnabled(true);
-                speakOut();
             }
 
         } else {
